@@ -39,3 +39,15 @@ nav a:hover {
     background-color: #39aae1;
     color: snow;
 }
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 10px;
+}
+
+.mm_line {
+    height: 2px;
+    background-color: #39aae1;
+}

@@ -35,7 +35,7 @@
     article {
         flex: 1;
         min-width: 300px;
-        margin-right: 1.3rem;
+        /* margin-right: 1.3rem; */
     }
     /* ----------------- SECTION  -> ARTICLE POSTAGEM DE NOTICIAS------------------------- */
     
@@ -48,7 +48,7 @@
         color: snow;
         size: 1rem;
         padding: 10px;
-        margin-right: 3px;
+        /* margin-right: 3px; */
     }
     
     article .news_comments {
@@ -95,14 +95,15 @@
     article .aside-anuncios {
         background-color: #39aae1;
         width: 100px;
-        padding: 15px;
+        height: 100px;
+        padding: 10px;
         margin: 5px;
         color: #000;
     }
     
     aside .widget .widget_body {
         display: inline-block;
-        margin: 10px 0;
+        margin: 10px;
     }
     
     aside .msg {

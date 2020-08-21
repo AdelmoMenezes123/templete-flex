@@ -1,0 +1,106 @@
+@media(max-width: 655px) {
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    nav a {
+        color: black;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: snow;
+        width: 100%;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .banner_headline {
+        margin: 8vh;
+    }
+    #banner .banner_headline h1 {
+        font-size: 2.6rem;
+        margin: 25px 0;
+    }
+    .banner_headeline h2 {
+        font-size: 1rem;
+    }
+    .banner_options {
+        height: 100%;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+    #geral section {
+        padding: 20px;
+        /* background-color: blueviolet; */
+    }
+    #geral aside {
+        /* background-color: red; */
+        padding: 20px;
+    }
+    #geral article {
+        /* background-color: red; */
+        flex: 1;
+        width: 100%;
+    }
+    #banner {
+        flex-direction: column;
+        display: flex;
+        height: 100%;
+    }
+    article .news_thumbmail,
+    article .news_thumbmail img {
+        width: 100%;
+    }
+    article .aside-anuncios {
+        background-color: #39aae1;
+        width: 170px;
+        margin: 10px;
+        height: 100px;
+        padding: 20px;
+    }
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 635px)and (max-width: 540px) {
+    /* padding: 20px; */
+    article .aside-anuncios {
+        /* width: 100%; */
+        margin: 5px;
+        display: flex;
+    }
+}
+
+@media (max-width: 517px) {
+    /* padding: 20px; */
+    article .aside-anuncios {
+        margin: 5px;
+        width: 100%;
+    }
+    aside article a {
+        /* background-color: red; */
+        width: 100%;
+        padding: 3px;
+        margin: 5px;
+        display: flex;
+    }
+}
